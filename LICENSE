@@ -1,22 +1,36 @@
-Internal Use & Modification License (Genzen Pharmaceutical Trading Inventory System)
-Version 1.0
+Copyright (c) 2026
 
-This software is owned and copyrighted by the Original Author.
+GRANT OF RIGHTS
+Genzen Pharmaceutical Trading is hereby granted a non-exclusive, non-transferable, perpetual license to use, modify, and maintain this software solely for its internal business operations. This license is granted without any fee.
 
-Permitted Uses:
+PERMITTED USES
 
-Use & Modification: You may freely use, study, and modify the software for any purpose within Genzen Pharmaceutical.
+Use: Genzen Pharmaceutical Trading may use the software for its internal inventory management purposes.
 
-Internal Sharing: You may share the software and any modifications you make with other employees or contractors of Genzen Pharmaceutical who need it to perform their job duties.
+Modification: Employees of Genzen Pharmaceutical Trading may modify the source code to adapt the software to the company's needs.
 
-Restrictions & Obligations:
+Internal Distribution: Modified versions may be shared with other employees or contractors who need access to perform their job duties.
 
-No External Distribution: You may not distribute the software, or any modified versions of it, to any person or entity outside of Genzen Pharmaceutical. This includes sharing it with vendors, partners, or making it available on the internet.
+Archival: Copies may be made for backup and archival purposes.
 
-Confidentiality: The software's source code and any modifications are confidential. You must take reasonable precautions to prevent unauthorized access, copying, or disclosure to parties outside of the company.
+RESTRICTIONS
 
-Preservation of Notice: You may not alter or remove any copyright, license, or other proprietary notice included in the software by the Original Author. If you add your own modifications, you must add a clear notice stating that you modified the software and indicate the date of your changes. This maintains the integrity of the modification records.
+No External Distribution: The software, in its original or modified form, may not be distributed to any person or entity outside Genzen Pharmaceutical Trading.
 
-Disclaimer of Warranty: This software is provided "as is," without warranty of any kind, express or implied.
+No Commercial Exploitation: The software may not be sold, licensed, sublicensed, rented, leased, or used in any commercial venture by any third party.
 
+No Removal of Notices: The copyright notice and this license text must not be removed or altered.
+
+No Reverse Engineering: The software may not be reverse‑engineered, decompiled, or disassembled beyond what is necessary for permitted modifications.
+
+OWNERSHIP
+This license does not transfer ownership of the software. The Original Author retains all right, title, and interest in and to the software, including all intellectual property rights.
+
+DISCLAIMER OF WARRANTY
+This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the Original Author be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+MODIFICATION NOTICE
+If you modify this software, you must add a clear notice in the source code stating that you have modified the file, along with the date of the modification and your name.
+
+ACCEPTANCE
 By using, copying, or modifying this software, you are accepting the terms of this license.

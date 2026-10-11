@@ -1,83 +1,55 @@
-# 📦 **Genzen Pharmaceutical Trading Inventory System – Overview**
-*User-Friendly Guide (v2.0)*
+# 📦 Genzen Inventory System (v2.0 - Archived)
+
+> **Core Mission:** A hyper-efficient, lightweight Excel/VBA inventory manager designed to automate stock logging, eliminate manual entry errors, and run effortlessly on low-spec legacy hardware.
 
 ---
 
-## 🧭 **Overview**
+## 🧭 System Overview
 
-This Inventory Excel System is designed to:
+### ✨ Key Capabilities
+* **Automated Data Routing:** Transfers form entries into a centralized, protected database sheet without manual cell editing.
+* **One-Click Macro Automation:** Fast stock-in and stock-out logging via embedded VBA macros.
+* **Ultra-Low Hardware Footprint:** Specifically engineered and optimized to run on low-end dual-core laptops with just **2 GB RAM** on **Windows 7** and **Office 2010**.
 
-Record and manage inventory entries
-Store data in a centralized database sheet
-Use buttons/macros to automate tasks (no manual encoding in DB)
+---
 
-## 🚀 **Getting Started**
-```
-- **Enable Macros (IMPORTANT)**
-- When opening the file:
-- Click "Enable Content"
-- If you don’t → buttons will not work
-```
+## ⚙️ Minimum System Requirements
 
-## 🧾 **Main Workflow**
-➤ Step 1: Go to Inventory_Form
-```
-- This is where all inputs happen.
-- Fill in required fields such as:
-- Item Name
-- Quantity
-- Category / Type
-- Date / Other details (depending on your setup)
-⚠️ Do NOT leave required fields blank
-```
+* **Software:** Microsoft Excel (Desktop: 2010, 2016, 2019, 2021, or M365). *Web browser versions are unsupported.*
+* **File Format:** Macro-Enabled Workbook (`.xlsm`) or Binary Workbook (`.xlsb`).
+* **OS:** Windows 7, 8, 10, or 11.
+* **Hardware:** 2 GB RAM + Dual-Core CPU.
 
-➤ Step 2: Click Add Record Button
-```
-- Saves your input into Inventory_DB
-- Automatically:
-- Finds next available row
-- Generates ID (if implemented)
-- Transfers form data → database
-```
+---
 
-➤ Step 3: Verify Entry
-```
-- Go to Inventory_DB
-- Confirm that your data was added correctly
-```
+## 🚀 Quick Start & Workflow
 
-➤ Step 4: Clear / Reset Form (if applicable)
-```
-- Some versions auto-clear after submission
-- If not, use Clear Button (if available)
-```
+### 1. Enable Macros
+When opening the file, click **Enable Content** in the yellow warning bar. Without this, buttons will not function.
 
-## 🧠 System Logic (Simple Explanation)
-Inventory_Form = Input Layer
-Inventory_DB = Storage Layer
-Buttons = Trigger VBA Macros
+### 2. Standard Operating Steps
+1. **Input Data:** Navigate to `Inventory_Form` and fill in required details (Item Name, Quantity, Category, Date).
+2. **Commit Record:** Click the **Add Record** button to trigger the VBA macro, auto-generate records, and append them to `Inventory_DB`.
+3. **Verify:** Check `Inventory_DB` to confirm the log.
 
+---
 
-*You never edit the DB manually unless fixing errors.*
+## 🏗️ Architecture & Safety Rules
 
-# ⚠️ Do’s and Don’ts
-## ✅ DO:
-- Always input data through the form
-- Double-check entries before submitting
-- Keep sheet names unchanged
-- 
-## ❌ DON’T:
-- Rename sheets (breaks macros)
-- Delete hidden/config sheets
-- Edit VBA unless you know what you’re doing
-- Insert rows manually in DB (can break ID logic)
-- 
-## 🛠 Common Issues
-**❌ Button not working**
-→ Macros are disabled
+### 🧠 Logic Breakdown
+$$\text{Inventory\_Form (UI)} \xrightarrow{\quad \text{VBA Macros} \quad} \text{Inventory\_DB (Storage)}$$
 
-**❌ Data not saving**
-→ Missing required fields OR macro error
+### ⚠️ Critical Rules
+* **DO NOT** edit `Inventory_DB` manually unless correcting a typo.
+* **DO NOT** rename or delete worksheets (breaks macro bindings).
+* **DO NOT** insert/delete rows manually in the DB sheet.
 
-**❌ Wrong data placement**
-→ Form mapping mismatch (dev issue)
+---
+
+## 🛠️ Quick Troubleshooting
+
+| Issue | Cause | Solution |
+| :--- | :--- | :--- |
+| **Buttons fail to click** | Macros are disabled | Re-open workbook and select **Enable Content** |
+| **Data fails to save** | Blank required fields / VBA error | Ensure all form fields are filled before submitting |
+| **Data in wrong columns** | Mapping mismatch | Check cell references inside the VBA script |

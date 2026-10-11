@@ -1,4 +1,7 @@
-# 📦 Genzen Inventory System (v2.0 - Archived)
+<img src="CompanyLogo.png" alt="Description" width="300" style="display: block; margin: 0 auto;">
+<div style="text-align: center; font-size: 32px; width: 100%; padding: auto; display: block; margin: auto;">
+📦 Genzen Inventory System (v2.0 - Archived)
+</div>
 
 > **Core Mission:** A hyper-efficient, lightweight Excel/VBA inventory manager designed to automate stock logging, eliminate manual entry errors, and run effortlessly on low-spec legacy hardware.
 

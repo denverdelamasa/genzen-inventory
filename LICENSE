@@ -1,36 +1,21 @@
-Copyright (c) 2026
+MIT License
 
-GRANT OF RIGHTS
-Genzen Pharmaceutical Trading is hereby granted a non-exclusive, non-transferable, perpetual license to use, modify, and maintain this software solely for its internal business operations. This license is granted without any fee.
+Copyright (c) 2026 Genzen Pharmaceutical Trading / Denver Wayne Encarnacion Dela Masa
 
-PERMITTED USES
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Use: Genzen Pharmaceutical Trading may use the software for its internal inventory management purposes.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Modification: Employees of Genzen Pharmaceutical Trading may modify the source code to adapt the software to the company's needs.
-
-Internal Distribution: Modified versions may be shared with other employees or contractors who need access to perform their job duties.
-
-Archival: Copies may be made for backup and archival purposes.
-
-RESTRICTIONS
-
-No External Distribution: The software, in its original or modified form, may not be distributed to any person or entity outside Genzen Pharmaceutical Trading.
-
-No Commercial Exploitation: The software may not be sold, licensed, sublicensed, rented, leased, or used in any commercial venture by any third party.
-
-No Removal of Notices: The copyright notice and this license text must not be removed or altered.
-
-No Reverse Engineering: The software may not be reverse‑engineered, decompiled, or disassembled beyond what is necessary for permitted modifications.
-
-OWNERSHIP
-This license does not transfer ownership of the software. The Original Author retains all right, title, and interest in and to the software, including all intellectual property rights.
-
-DISCLAIMER OF WARRANTY
-This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the Original Author be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
-
-MODIFICATION NOTICE
-If you modify this software, you must add a clear notice in the source code stating that you have modified the file, along with the date of the modification and your name.
-
-ACCEPTANCE
-By using, copying, or modifying this software, you are accepting the terms of this license.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -37,10 +37,7 @@ When opening the file, click **Enable Content** in the yellow warning bar. Witho
 
 ---
 
-## 🏗️ Architecture & Safety Rules
-
-### 🧠 Logic Breakdown
-$$\text{Inventory\_Form (UI)} \xrightarrow{\quad \text{VBA Macros} \quad} \text{Inventory\_DB (Storage)}$$
+## 🏗️ Safety Rules
 
 ### ⚠️ Critical Rules
 * **DO NOT** edit `Inventory_DB` manually unless correcting a typo.
